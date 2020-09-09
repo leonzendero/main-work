@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+<header class="head">
+    <div class="wrapper-container">
+        <div class="wrapper wrapper-all">
+            <div class="wrapper-text">
+                <ul class="d-flex px-0 flex-row justify-content-center nav-menu nav-head">
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>TEAM</li>
+                    <li>BOOKING</li>
+                </ul>
+            </div>
+            <div class="text-center">
+                <img src="img/header-menu.png" class="w-100 h-100 main-img" alt="">
+            </div>
+            <div class="wrapper-text">
+                <ul class="d-flex px-0 flex-row justify-content-center nav-menu nav-head-one">
+                    <li>MENU</li>
+                    <li>GALERIE</li>
+                    <li>EVENTS</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+        </div>
+        <div class="info">
+            <div class="info-left-text">
+                <p class="info-media">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+            </div>
+            <div>
+                <p class="info-center-text">RESTAURANT</p>
+                <h1 class="info-title">hungry people</h1>
+                <div class="info-button">
+                    <button class="button button-active">BOOK TABLE</button>
+                    <button class="button button-default">EXPLORE</button>
+                </div>
+                <div class="info-icon-up">
+                    <i class="fa fa-chevron-circle-down"></i>
+                </div>
+            </div>
+            <div class="info-icon">
+                <i class="fab fa-facebook icon"></i>
+                <i class="fab fa-twitter-square icon"></i>
+                <i class="fab fa-instagram-square"></i>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="about">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-6">
+                <h2 class="about-title">about us</h2>
+                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                    molestie est a, tempor magna.</p>
+                <p class="about-text about-text-one">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+                    posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula
+                    eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla
+                    facilisis semper laoreet.</p>
+            </div>
+            <div class="col-xl-6 about-all">
+                <img class="about-img" src="img/about.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="team">
+    <div class="container-fluid">
+        <div>
+            <p class="team-title">OUR TEAM</p>
+        </div>
+        <div class="row team-back">
+            <div class="col-xl-6 about-all">
+                <img class="about-img" style="" src="img/Rectangle%20(1).png" alt="">
+            </div>
+            <div class="col-xl-6">
+                <h2 class="about-title">about us</h2>
+                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                    molestie est a, tempor magna.</p>
+                <p class="about-text about-text-one">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+                    posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula
+                    eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla
+                    facilisis semper laoreet.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="book">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                <div>
+                    <h2 class="book-title">book a table</h2>
+                    <div class="book-all">
+                        <label>
+                            <input class="book-input" placeholder="Name" type="text">
+                            <input class="book-input" placeholder="Email" type="text">
+                        </label>
+                        <label>
+                            <input class="book-input" placeholder="Phone" type="text">
+                            <input class="book-input" placeholder="People" type="text">
+                        </label>
+                        <label>
+                            <input class="book-input" placeholder="Date (mm/dd)" type="text">
+                            <input class="book-input" placeholder="Time" type="text">
+                        </label>
+                    </div>
+                    <button class="book-button">BOOK NOW</button>
+                </div>
+            </div>
+            <div class="col-xl-6 book-all-img">
+                <img class="book-img" src="img/about-img%20(1).png" alt="">
+            </div>
+        </div>
+        <div class="book-page">
+            <p class="book-p">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782</p>
+        </div>
+    </div>
+</section>
+<section class="team">
+    <div class="container-fluid">
+        <div class="swiper-container h-100" style="padding-bottom: 88px;">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div>
+                        <div>
+                            <p class="team-title">specialties</p>
+                        </div>
+                        <div class="row team-back">
+                            <div class="col-xl-6 about-all">
+                                <img class="about-img" style="" src="img/Rectangle%20(2)%20(1).png" alt="">
+                            </div>
+                            <div class="col-xl-6">
+                                <h2 class="about-title">chocolate pancakes</h2>
+                                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                                    velit maximus,
+                                    molestie est a, tempor magna.</p>
+                                <p class="about-text about-text-one">Integer ullamcorper neque eu purus euismod, ac
+                                    faucibus mauris
+                                    posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui
+                                    odio vehicula
+                                    eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis
+                                    pharetra. Nulla
+                                    facilisis semper laoreet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div>
+                            <p class="team-title">specialties</p>
+                        </div>
+                        <div class="row team-back">
+                            <div class="col-xl-6 about-all">
+                                <img class="about-img" style="" src="img/Rectangle%20(2)%20(1).png" alt="">
+                            </div>
+                            <div class="col-xl-6">
+                                <h2 class="about-title">chocolate pancakes</h2>
+                                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                                    velit maximus,
+                                    molestie est a, tempor magna.</p>
+                                <p class="about-text about-text-one">Integer ullamcorper neque eu purus euismod, ac
+                                    faucibus mauris
+                                    posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui
+                                    odio vehicula
+                                    eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis
+                                    pharetra. Nulla
+                                    facilisis semper laoreet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div>
+                            <p class="team-title">specialties</p>
+                        </div>
+                        <div class="row team-back">
+                            <div class="col-xl-6 about-all">
+                                <img class="about-img" style="" src="img/Rectangle%20(2)%20(1).png" alt="">
+                            </div>
+                            <div class="col-xl-6">
+                                <h2 class="about-title">chocolate pancakes</h2>
+                                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                                    velit maximus,
+                                    molestie est a, tempor magna.</p>
+                                <p class="about-text about-text-one">Integer ullamcorper neque eu purus euismod, ac
+                                    faucibus mauris
+                                    posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui
+                                    odio vehicula
+                                    eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis
+                                    pharetra. Nulla
+                                    facilisis semper laoreet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+<section class="delicious">
+    <div class="container">
+        <div class="delicious-info">
+            <h2 class="delicious-title">DELICIOUS MENU</h2>
+            <p class="delicious-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis<br> at
+                velit
+                maximus, molestie est a, tempor
+                magna.</p>
+            <div>
+                <ul id="myTab" role="tablist">
+                    <li class="active" data-toggle="tab" role="tab" aria-controls="home" aria-selected="true"
+                        href="#menu1">SOUPE
+                    </li>
+                    <li data-toggle="tab" role="tab" aria-controls="menu2" aria-selected="false" href="#menu2">PIZZA
+                    </li>
+                    <li data-toggle="tab" role="tab" aria-controls="menu3" aria-selected="false" href="#menu3">PASTA
+                    </li>
+                    <li data-toggle="tab" role="tab" aria-controls="menu4" aria-selected="false" href="#menu4">DESERT
+                    </li>
+                    <li data-toggle="tab" role="tab" aria-controls="menu5" aria-selected="false" href="#menu5">WINE
+                    </li>
+                    <li data-toggle="tab" role="tab" aria-controls="menu6" aria-selected="false" href="#menu6">BEER
+                    </li>
+                    <li data-toggle="tab" role="tab" aria-controls="menu7" aria-selected="false" href="#menu7">DRINKS
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content" id="myTabContent">
+                <div id="menu1" class="tab-pane fade active show" role="tabpanel" aria-labelledby="menu1-tab">
+                    <div class="row delicious-ul delicious-all">
+                        <div class="text-center col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu2" class="tab-pane fade" role="tabpanel" aria-labelledby="menu2-tab">
+                    <div class="row delicious-ul delicious-all">
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu3" class="tab-pane fade" role="tabpanel" aria-labelledby="menu3-tab">
+                    <div class="row delicious-ul delicious-all">
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu4" class="tab-pane fade" role="tabpanel" aria-labelledby="menu4-tab">
+                    <div class="row delicious-ul delicious-all">
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu5" class="tab-pane fade" role="tabpanel" aria-labelledby="menu5-tab">
+                    <div class="row delicious-ul delicious-all">
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu6" class="tab-pane fade" role="tabpanel" aria-labelledby="menu6-tab">
+                    <div class="row delicious-ul delicious-all">
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu7" class="tab-pane fade" role="tabpanel" aria-labelledby="menu7-tab">
+                    <div class="row delicious-ul delicious-all">
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4">
+                            <ul>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                                <li><h4 class="delicious-h">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h4>
+                                    <p class="delicious-p">Integer ullamcorper neque eu purus euismod</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="private">
+    <div class="container">
+        <div>
+            <h2 class="private-title text-center">PRIVATE EVENTS</h2>
+        </div>
+        <div class="row">
+            <div class="col-xl-6 private-img-one">
+                <img class="private-img" src="img/Rectangle%20(4)%20(1).png" alt="">
+            </div>
+            <div class="col-xl-6 private-img-two">
+                <img class="private-img" src="img/Rectangle%20(3)%20(1).png" alt="">
+            </div>
+        </div>
+        <div>
+            <p class="private-all-text text-center">For private events please call: +40 729 131 637/+40 726 458 782 or
+                use the contact form.</p>
+        </div>
+    </div>
+</section>
+<section class="gallery">
+    <div class="row mx-0">
+        <div class="col px-0">
+            <img src="img/Rectangle%20(5).png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col px-0">
+            <img src="img/Rectangle%20(6).png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col px-0">
+            <img src="img/Rectangle%20(7).png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col px-0">
+            <img src="img/Rectangle%20(8).png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+</section>
+<section class="contact">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="contact-title">CONTACT</h2>
+            <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis<br> at velit maximus,
+                molestie est a, tempor magna.</p>
+        </div>
+        <div>
+            <div class="book-all">
+                <div class="row mx-0 mb-3">
+                    <div class="col-xl-4 px-0 book-pad">
+                        <input class="book-input w-100" placeholder="Name" type="text">
+                    </div>
+                    <div class="col-xl-4 book-pad">
+                        <input class="book-input w-100" placeholder="Email" type="text">
+                    </div>
+                    <div class="col-xl-4 px-0 book-pad">
+                        <input class="book-input w-100" placeholder="Phone" type="text">
+                    </div>
+                </div>
+                <label>
+                    <textarea class="book-input contact-textarea w-100" placeholder="Message"></textarea>
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="contact-all-text">
+                    <p><i class="fas fa-map-marker-alt contact-icon"></i>5th London Boulevard, U.K.</p>
+                    <p><i class="fas fa-phone contact-icon"></i>+40 729 131 637/+40 726 458 782</p>
+                    <p><i class="fas fa-envelope contact-icon"></i>office@mindblister.com</p>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <button class="book-button contact-button">BOOK NOW</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div style="width: 100%;line-height: 0;">
+        <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    </div>
+</section>
+<footer class="back">
+    <p class="back-text text-center">© Copyright <span class="back-text-all">Mindblister</span> 2019</p>
+</footer>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/ddb2e9dd68.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
